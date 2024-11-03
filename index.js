@@ -11,10 +11,7 @@ const app = express();
 // CORS Configuration
 app.use(
   cors({
-    origin: [
-      "http://localhost:4200",
-      "https://angulartestbackend.onrender.com",
-    ], // Allow only this origin
+    origin: ["http://localhost:4200", "https://angularlogintest.netlify.app"], // Allow only this origin
     methods: ["GET", "POST", "PUT", "DELETE"], // Allow specific HTTP methods
     allowedHeaders: ["Content-Type", "Authorization"], // Allow specific headers
   })
